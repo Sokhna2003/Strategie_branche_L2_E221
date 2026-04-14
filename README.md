@@ -66,3 +66,27 @@ Exemples :
 #3 Page About  
 #4 Page Contact
 
+## Pull Request
+
+Avant d'être fusionnée dans main :
+
+- une Pull Request doit être créée
+- deux reviewers doivent approuver
+- les conflits doivent être résolus
+
+
+## Équipe
+
+Sokhna : Footer et Reviewers
+
+Ngone : Navbar et Reviewers
+
+Ben : Documentation(Améliorer README)
+
+Ndeye Galass : Page About
+
+Ardo : Formulaire / Style CSS
+
+Mouhamadou :  Page Contact
+
+Aminata : JS Interaction
