@@ -1,0 +1,22 @@
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(60, 60, 167);
+    color: white;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li {
+    list-style: none;
+        margin-top: 10px;
+
+}
+
+footer ul li :hover {
+    text-decoration: underline;
+}
