@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - Projet L2-Dev</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f3f4f6;
+            line-height: 1.6;
+        }
+
+        nav {
+            background-color: #4f46e5;
+            padding: 1rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .nav-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #6366f1;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            padding: 2rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #4f46e5;
+            margin-bottom: 1rem;
+            border-left: 5px solid #4f46e5;
+            padding-left: 1rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1f2937;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .description {
+            color: #4b5563;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .highlight {
+            color: #4f46e5;
+            font-weight: 600;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .team-grid li {
+            list-style: none;
+            padding: 0.5rem;
+            background: #f9fafb;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Liste classique */
+        .simple-list {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        .simple-list li {
+            padding: 0.5rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .simple-list li::before {
+        
+            position: absolute;
+            left: 0;
+        }
+
+        /* Badges technologies */
+        .tech-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .badge {
+            background-color: #e0e7ff;
+            color: #4f46e5;
+            padding: 0.4rem 1rem;
+            border-radius: 2rem;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        /* Encadré info */
+        .info-box {
+            background-color: #eef2ff;
+            border-left: 4px solid #4f46e5;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .info-box p {
+            color: #1e1b4b;
+            font-size: 0.9rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>À propos de notre projet</h1>
+        
+        <p class="description">
+            Ce projet est une application web collaborative réalisée par les étudiants de 
+            <span class="highlight">L2-Dev</span>. L'objectif est d'apprendre à travailler ensemble 
+            en utilisant <span class="highlight">Git et GitHub</span>, tout en créant un site qui 
+            présente notre travail et notre classe.
+        </p>
+
+        <h2>L'équipe</h2>
+        <ul class="team-grid">
+            <li>Ndeye galass diagne</li>
+            <li>Sokhna diane</li>
+            <li>Mame ngone diagne</li>
+            <li>Mamadou ardo ndiaye</li>
+            <li>Seydina ababacar ben thiam</li>
+            <li>Mouhamed ndiaye</li>
+            <li>Aminata diouf</li>
+        </ul>
+
+        <h2>Objectifs du projet</h2>
+        <ul class="simple-list">
+            <li>Apprendre à collaborer avec Git (branches, pull requests, issues)</li>
+            <li>Développer une interface web simple et responsive</li>
+            <li>Présenter notre travail à la classe et aux enseignants</li>
+        </ul>
+
+        <h2>Technologies utilisées</h2>
+        <div class="tech-badges">
+            <span class="badge">HTML5</span>
+            <span class="badge">CSS3</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">Git & GitHub</span>
+        </div>
+    </div>
+
+</body>
+</html>
